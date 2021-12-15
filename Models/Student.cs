@@ -10,12 +10,11 @@ namespace UasFront.Models
     {
         [Required(ErrorMessage ="NIM is required")]
         [StringLength(8,MinimumLength = 0)]
-        public string StudentId { get; set; }
+        public string studentID { get; set; }
         [Required]
-        public string FirstName { get; set; }
+        public string lastName { get; set; }
         [Required]
-        public string LastName { get; set; }
-        [Required]
-        public DateTime EnrollmentDate { get; set; }
+        public string firstName { get; set; }
+        public DateTime enrollmentDate { get; set; }
     }
 }

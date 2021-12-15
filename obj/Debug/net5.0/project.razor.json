@@ -140,6 +140,39 @@
         }
       },
       {
+        "HashCode": 1352466961,
+        "Kind": "Components.Component",
+        "Name": "UasFront.Pages.StudentPage",
+        "AssemblyName": "UasFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "StudentPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UasFront.Pages.StudentPage"
+        }
+      },
+      {
+        "HashCode": -1031033406,
+        "Kind": "Components.Component",
+        "Name": "UasFront.Pages.StudentPage",
+        "AssemblyName": "UasFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UasFront.Pages.StudentPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UasFront.Pages.StudentPage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -522866378,
         "Kind": "Components.Component",
         "Name": "UasFront.Shared.SurveyPrompt",
@@ -13026,6 +13059,11 @@
     {
       "FilePath": "d:\\Blazor\\UasFront\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Blazor\\UasFront\\Pages\\StudentPage.razor",
+      "TargetPath": "Pages\\StudentPage.razor",
       "FileKind": "component"
     },
     {

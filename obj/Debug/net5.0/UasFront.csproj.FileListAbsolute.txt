@@ -630,3 +630,5 @@ D:\Blazor\UasFront\obj\Debug\net5.0\UasFront.csproj.CopyComplete
 D:\Blazor\UasFront\obj\Debug\net5.0\UasFront.dll
 D:\Blazor\UasFront\obj\Debug\net5.0\ref\UasFront.dll
 D:\Blazor\UasFront\obj\Debug\net5.0\UasFront.pdb
+D:\Blazor\UasFront\obj\Debug\net5.0\RazorDeclaration\Pages\StudentPage.razor.g.cs
+D:\Blazor\UasFront\obj\Debug\net5.0\Razor\Pages\StudentPage.razor.g.cs
