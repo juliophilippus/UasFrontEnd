@@ -7,8 +7,11 @@ namespace UasFront.Models
 {
     public class Enrollment
     {
-        public int DepartmentId { get; set; }
-
-        public string DepartmentName { get; set; }
+        public string StudentId { get; set; }
+        public Student Student { get; set; }
+        public int CourseId { get; set; }
+        public string Grade { get; set; }
+        public string Title{ get; set; }
+        public int Credits { get; set; }
     }
 }
