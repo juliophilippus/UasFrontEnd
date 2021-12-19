@@ -15,6 +15,6 @@ namespace UasFront.Models
         public string lastName { get; set; }
         [Required]
         public string firstName { get; set; }
-        public DateTime enrollmentDate { get; set; }
+        public DateTime enrollmentDate { get; set; } = DateTime.Now;
     }
 }

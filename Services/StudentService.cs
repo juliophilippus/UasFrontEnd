@@ -37,7 +37,7 @@ namespace UasFront.Services
 
         public async Task<Student> Update(int id, Student Student)
         {
-            var response = await _httpClient.PutAsJsonAsync($"api/Student/{id}",Student);
+            var response = await _httpClient.PutAsJsonAsync($"api/Student", Student);
             if (response.IsSuccessStatusCode){
                 return await JsonSerializer.DeserializeAsync<Student>(await response.Content.ReadAsStreamAsync());
             }
@@ -49,7 +49,7 @@ namespace UasFront.Services
 
         public async Task<Student> Add(Student obj)
         {
-            var response = await _httpClient.PostAsJsonAsync($"api/Student",obj);
+            var response = await _httpClient.PostAsJsonAsync($"api/Student", obj);
             if (response.IsSuccessStatusCode){
                 return await JsonSerializer.DeserializeAsync<Student>(await response.Content.ReadAsStreamAsync());
             }
@@ -58,7 +58,6 @@ namespace UasFront.Services
                 throw new Exception("Gagal tambah data student");
             }
         }
-
 
     }
 }

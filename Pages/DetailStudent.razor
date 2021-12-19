@@ -1,0 +1,10 @@
+@page "/detailmahasiswa/{id}"
+
+<h3 class="text-center" style="font-weight:bold;">DETAIL MAHASISWA</h3>
+<br>
+
+<p>NIM   : @Student.studentID</p>
+<p>Nama Lengkap : @Student.firstName @Student.lastName</p>
+<p>Tanggal Masuk : @Student.enrollmentDate</p>
+
+<a href="mahasiswa" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Kembali">Kembali</a>

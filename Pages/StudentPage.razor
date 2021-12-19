@@ -1,10 +1,10 @@
-@page "/studentpage"
+@page "/mahasiswa"
 
-<h3 class="text-center" style="font-weight:bold;">LIST STUDENTS</h3>
+<h3 class="text-center" style="font-weight:bold;">LIST MAHASISWA</h3>
 <br>
 
-  <a href="studentpage" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Add Student">
-    <span class="oi oi-plus" aria-hidden="true"></span> Add Student
+  <a href="/tambahmahasiswa" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tambah Mahasiswa">
+    <span class="oi oi-plus" aria-hidden="true"></span> Tambah Mahasiswa
   </a>
 
 <br><br>
@@ -31,20 +31,20 @@
             <td>@mhs.enrollmentDate</td>
             <td>
               
-              <a href="" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Detail">
+              <a href="@($"detailmahasiswa/{mhs.studentID}")" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Detail">
                 <span class="oi oi-eye" aria-hidden="true"> Detail</span>
               </a>
 
-              <a href="" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Enroll">
-                <span class="oi oi-cog" aria-hidden="true"> Enroll</span>
+              <a href="/enrollment" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Enroll">
+                <span class="oi oi-list" aria-hidden="true"> Enroll</span>
               </a>
 
-               <a href="" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit">
+               <a href="@($"editmahasiswa/{mhs.studentID}")" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit">
                 <span class="oi oi-cog" aria-hidden="true"> Edit</span>
               </a>
 
-              <a href="" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                <span class="oi oi-trash" aria-hidden="true"> Delete</span>
+              <a href="@($"hapusmahasiswa/{mhs.studentID}")" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus">
+                <span class="oi oi-trash" aria-hidden="true"> Hapus</span>
               </a>
        
             </td>

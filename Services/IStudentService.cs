@@ -12,6 +12,6 @@ namespace UasFront.Services
         Task<Student> GetById(int id);
         Task<Student> Add(Student student);
         Task<Student> Update(int id, Student Student);
-        Task Delete (int id);
+        Task Delete(int id);
     }
 }

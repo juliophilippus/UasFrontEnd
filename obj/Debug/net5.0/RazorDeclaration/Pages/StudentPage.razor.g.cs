@@ -82,7 +82,7 @@ using UasFront.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/studentpage")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/mahasiswa")]
     public partial class StudentPage : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
